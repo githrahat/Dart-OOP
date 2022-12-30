@@ -6,10 +6,14 @@ void main(){
 
   // prints the first 
   var subfirst = subjects.first;
-  print(subjects.first);
+  print(subfirst);
+  // prints the last value 
   print(subjects.last);
+  // prints the length 
   print(subjects.length);
+  // prints and shows the value in reversed way
   print(subjects.reversed);
+  // prints the value of the 3no. index 
   print(subjects[3]);
 
   
@@ -27,16 +31,19 @@ void main(){
   subjects[1] = "rahat";
   print(subjects);
 
-  // remove
+  // remove section
+  
   subjects.remove("math");
   print(subjects);
+  // remove the no.2 index value
   subjects.removeAt(2);
   print(subjects);
+  // remove the last value
   subjects.removeLast();
   print(subjects);
   // Its best option for updating
   subjects.replaceRange(1, 2, ["Leading University"]); 
-  print(list);
+  print(subjects);
   
  /*
   var firstItem = list.first;
