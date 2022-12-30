@@ -1,0 +1,68 @@
+void main(){
+
+// string
+  String name1 = "Hasan";
+  String name2 = "Ahmad";
+  print(name1 + " " + name2);
+ 
+  // integer
+  final int age2 = 21;
+  print(age2);
+  //age2 = 22;
+ 
+  // double
+  double sscGpa = 3.83;
+  print(sscGpa);
+ 
+  // boolean for true / false
+  bool ans = false;
+  print(ans);
+ 
+// ==========================
+// Operators
+// ==========================
+
+ // add
+ int add = 20 + 50;
+ print(add);
+
+// minus
+ int minu = 50 - 10;
+ print(minu);
+
+// multiply
+ int multi = 20 * 50;
+ print(multi);
+
+// List in String
+List<String> friends = [
+  'Rahat',
+  'Hasan',
+  'Sammun'
+];
+print(friends);
+print(friends[1]);
+
+// List in Int or numbers
+List<int> numbers = [
+  20,
+  21,
+  26
+];
+print(numbers);
+print(numbers[1]);
+}
+
+// Map --> key,value pair
+  Map<int, int> keys = {1: 1, 2: 2, 3: 3};
+  //print(keys)
+ 
+  Map<String, int> friendsAge = {"hasan": 21, "rahat": 22};
+  //print(friendsAge);
+  //print(friendsAge["hasan"]);
+ 
+  Map<int, Map<String, int>> id = {
+    2122020030: {"Hasan": 21},
+    2122020020: {"Rahat": 22}
+  };
+  //print(id[2122020020]);
