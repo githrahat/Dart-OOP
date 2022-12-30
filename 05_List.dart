@@ -14,27 +14,28 @@ void main(){
 
   
   // add items
-  list.add("history");
-  print(list);
-  list.addAll(["biology", "zoology", "data"]);
-  print(list);
-  list.insert(0, "first");
-  print(list);
-  list.insertAll(2, ["geography", "bgs", "social"]);
-  print(list);
+  subjects.add("history");
+  print(subjects);
+  subjects.addAll(["biology", "zoology", "data"]);
+  print(subjects);
+  subjects.insert(0, "first");
+  print(subjects);
+  subjects.insertAll(2, ["geography", "bgs", "social"]);
+  print(subjects);
 
   // list update
-  list[1] = "rahat";
-  print(list);
+  subjects[1] = "rahat";
+  print(subjects);
 
   // remove
-  list.remove("math");
-  print(list);
-  list.removeAt(2);
-  print(list);
-  list.removeLast();
-  print(list);
-  list.replaceRange(1, 2, ["Leading University"]); // best option for updating
+  subjects.remove("math");
+  print(subjects);
+  subjects.removeAt(2);
+  print(subjects);
+  subjects.removeLast();
+  print(subjects);
+  // Its best option for updating
+  subjects.replaceRange(1, 2, ["Leading University"]); 
   print(list);
   
  /*
