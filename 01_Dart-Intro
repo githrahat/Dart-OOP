@@ -1,0 +1,22 @@
+void main() {
+
+  String hello ='Hello World';
+  print(hello);
+
+  // Addition - int
+  int a = 10;
+  int b = 20;
+  int c = a + b;
+  print(c);
+
+  // String
+  String name = 'Rahat';
+  String name2 = 'Alam';
+  print(name + " " + name2);
+
+// final and const
+  final test = 20;
+  const  test2 = 50;
+  print(test);
+  print(test2);
+}
