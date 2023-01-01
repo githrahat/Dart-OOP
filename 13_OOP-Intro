@@ -1,0 +1,40 @@
+// state & behaviour
+// state is an attributes of objects which has a current characterstics
+// behaviour is represents functions/methods
+
+// class - blueprint
+// object - real world
+
+class classfive{ // class creation
+      // (String? name;) -> null safety (variable can be store null)
+    String Name = ''; 
+    int roll = 0;
+    String section = '';
+    int age = 0;
+  
+
+// constructor -> same name of its own class (class name is classfive so constructor name is classfive)
+  // man(String n, int a, double h, String add) {
+  //   name = n;
+  //   age = a;
+  //   height = h;
+  //   address = add;
+  // }
+  classfive();
+}
+void main(List<String> args) {
+
+    classfive student = classfive();
+      student.Name = 'RahatAlam'; // object creation
+      print(student.Name);
+      print(student.age = 22);
+      print(student.roll = 2122020020);
+      print(student.section ='A');   
+
+
+
+      /// Overview
+/// step 1 - creating class / blueprint
+/// step 2 - initializing attributes / variable
+/// step 3 - creating object
+}
