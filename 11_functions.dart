@@ -1,8 +1,36 @@
-import 'dart:ffi';
+void main() { 
 
-void main(List<String> args) {
-  name();  
+  add();
+  add2(3, 4);
+  // ignore: unused_local_variable
+  int ans = add3(3, 4, 5);
+  print(ans);
+  print("\n");
 }
-void name(){
-  print('Rahat new function');
+
+// its a function which has nothing to return. 
+// Its main job is to print anything which is placed inside the brackets of the print . 
+// thats why we have used void as data type.
+void add() {
+  print("I am add function for adding numbers : ");
+  print(5 + 5);
+  print("\n");
+}
+
+// its a function which has nothing to return. 
+// Its main job is to print anything which is placed inside the brackets of the print . 
+// plus, its geting value from the parameters
+void add2(int a, int b) {
+  print("I am add function 2, for adding given parameterized numbers sum : ");
+  print(a + b);
+  print("\n");
+}
+
+//  return function
+int add3(int a, int b, int c) {
+  print("I am returning function to return the sum of given parameter : ");
+  int sum = a + b + c;
+  return sum; // returning
+
+  ////////////////////////////////////////////////
 }
